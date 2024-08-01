@@ -281,7 +281,7 @@ classdef Gasthermodata < matlab.apps.AppBase
             app.EditField_4.ValueDisplayFormat = '%.9f';
             app.EditField_4.Position = [117 100 125 38];
 
-            % Show the figure after all components are created
+            % Show the figure after all components are created 修改一下这里
             app.UIFigure.Visible = 'on';
         end
     end
